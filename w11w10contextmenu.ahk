@@ -15,7 +15,7 @@ LastFnPress := False
 ; Disable when FN key is presed
 #if not LastFNPress
 
-RButton::
+$RButton::
 	MouseGetPos,,, winID
 	WinGetClass, cls, ahk_id %winID%
 
@@ -23,7 +23,7 @@ RButton::
 		Click
 		Send +{F10}
 	} else {
-		Click Right
+		Send {RButton}
 	}
 
 
