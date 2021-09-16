@@ -1,6 +1,6 @@
 #SingleInstance, force
 
-I_Icon = w10w11contextmenu.ico
+I_Icon = w11w10contextmenu.ico
 ICON [I_Icon]
 
 ;Changes menu tray icon
